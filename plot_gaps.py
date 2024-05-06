@@ -15,7 +15,7 @@ def linfun(x, a):
 
 if __name__ == "__main__":
     filenames = ["8cm_1", "8cm_2", "11cm_1", "14cm_1", "37cm", "47cm", "56cm"]
-    d = [8, 8, 11, 14, 37, 47, 56]
+    d = [32, 32, 35, 38, 37, 47, 56]
     dt = []
 
     for filename in filenames:
