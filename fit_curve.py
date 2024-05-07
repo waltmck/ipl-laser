@@ -11,7 +11,7 @@ import scipy.stats
 from scipy.interpolate import interp1d
 
 
-labels = {"8cm_1": "d=32cm (1)", "8cm_2": "d=32cm (2)", "11cm_1": "d=35cm", "14cm_1": "d=38cm", "37cm": "d=37cm", "47cm": "d=47cm", "56cm": "d=56cm", "com_laser1": "Commercial Laser (1)", "com_laser2": "Commercial Laser (2)", "com_laser3": "Commercial Laser (3)"}
+labels = {"8cm_1": "L=32cm (1)", "8cm_2": "L=32cm (2)", "11cm_1": "L=35cm", "14cm_1": "L=38cm", "37cm": "L=37cm", "47cm": "L=47cm", "56cm": "L=56cm", "com_laser1": "Commercial Laser (1)", "com_laser2": "Commercial Laser (2)", "com_laser3": "Commercial Laser (3)"}
 
 def k_norm(num_peaks: int, x, *args):
     assert len(args) == 3*num_peaks+1
