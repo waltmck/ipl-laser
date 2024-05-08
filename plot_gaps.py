@@ -36,6 +36,12 @@ if __name__ == "__main__":
         for i in range(0, len(d)):
             print(f"{d[i]},{dt[i]}", file=f)
             print(f"{filenames[i]}:\n\td={d[i]}\n\tdt={dt[i]}\n")
+    
+    with open(f'output/gaps_com.csv', 'w') as f:
+        print("n,dt", file=f)
+        for i in range(0, len(com_dt)):
+            print(f"{i},{com_dt[i]}", file=f)
+            print(f"{com_filenames[i]}:\n\tdt={com_dt[i]}\n")
 
 
 
